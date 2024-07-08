@@ -1,0 +1,76 @@
+.user{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.table  {
+  border: 1px solid black;
+  width: 700px;
+  /* height: 30px; */
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  color: rgb(13, 2, 63);}
+
+
+   th  {
+  border: 1px solid black;
+  width: 500px;
+  height: 30px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  color: rgb(13, 2, 63);
+
+}
+   td  {
+  border: 1px solid black;
+  width: 500px;
+  height: 30px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  color: rgb(13, 2, 63);
+
+}
+
+
+table th button {
+  padding: 5px 10px;
+  border-radius: 5%;
+}
+.table tr button.edit{
+  border : 1px solid rgb(10, 10, 10);
+  background-color: rgb(15, 15, 209);
+  color: white;
+  
+}
+.table  button.edit:hover{
+  background-color: rgb(3, 27, 3); 
+}
+.table td button.delete{
+  border : 1px solid rgb(12, 12, 14);
+  background-color: rgb(158, 9, 9);
+  margin-left: 5px;
+  color: white;
+  
+}
+.table td button.delete:hover{
+  background-color: rgb(243, 8, 39); 
+}
+
+.addForm{
+ background-color: antiquewhite;
+  align-items: center;
+  padding: 30px;
+ 
+}
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  padding: 2px;
+  margin-bottom: 30px;
+ 
+}
+
